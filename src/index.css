@@ -79,3 +79,41 @@ body{
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   border: 3px solid white;
 }
+@media only screen and (max-width: 900px) {
+  .img-grid{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    padding: 25px 30px!important;
+  
+  }
+
+.backdrop img{
+  
+  max-width: 90%;
+ height: 90%;
+  margin: 5% auto ;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  border: 3px solid white;
+}
+ 
+  
+}
+@media only screen and (max-width: 500px) {
+  .img-grid{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 40px;
+    padding: 25px 30px!important;
+  
+  }
+  .backdrop img{
+  
+    max-height: 60%;
+ 
+   margin:35% auto;
+    
+  }
+}
