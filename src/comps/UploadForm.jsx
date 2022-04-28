@@ -20,7 +20,7 @@ export default function UploadForm() {
   return (
     <form>
        <div className='d-flex justify-content-center'>
-       <label for="img" class="btn btn-outline-info fw-bold " style={{width:"60%"}}>Try me</label>
+       <label for="img" class="btn btn-outline-info fw-bold " style={{width:"60%"}}>Upload Image</label>
        <input type="file" id="img" style={{display:"none"}}  onChange={changeHandler} />
        </div>
         <div className="output">
